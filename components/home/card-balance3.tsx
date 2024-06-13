@@ -19,10 +19,10 @@ export const CardBalance3 = () => {
                <Community />
                <Flex direction={'column'}>
                   <Text span css={{color: 'white'}}>
-                     Balance Insurance
+                     Gelirler
                   </Text>
                   <Text span css={{color: 'white'}} size={'$xs'}>
-                     1311 Cars
+                     Sonraki 120 gün içerisinde:
                   </Text>
                </Flex>
             </Flex>
@@ -33,9 +33,9 @@ export const CardBalance3 = () => {
                   css={{color: 'white'}}
                   weight={'semibold'}
                >
-                  $3,910
+                  +₺378.000
                </Text>
-               <Text span css={{color: '$red600'}} size={'$xs'}>
+               <Text span css={{color: '$green600'}} size={'$xs'}>
                   + 4.5%
                </Text>
             </Flex>

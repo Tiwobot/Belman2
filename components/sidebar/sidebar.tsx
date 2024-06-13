@@ -49,80 +49,82 @@ export const SidebarWrapper = () => {
             >
                <Sidebar.Body className="body sidebar">
                   <SidebarItem
-                     title="Home"
+                     title="Giriş"
                      icon={<HomeIcon />}
                      isActive={router.pathname === '/'}
                      href="/"
                   />
-                  <SidebarMenu title="Main Menu">
+                  <SidebarMenu title="Ana Menü">
+                     <SidebarItem
+                        isActive={router.pathname === '/products'}
+                        title="Hizmetler"
+                        icon={<ProductsIcon />}
+                     />
                      <SidebarItem
                         isActive={router.pathname === '/accounts'}
-                        title="Accounts"
+                        title="Kişiler/Çalışanlar"
                         icon={<AccountsIcon />}
                         href="accounts"
                      />
                      <SidebarItem
                         isActive={router.pathname === '/payments'}
-                        title="Payments"
+                        title="Ödemeler"
                         icon={<PaymentsIcon />}
                      />
                      <CollapseItems
                         icon={<BalanceIcon />}
-                        items={['Banks Accounts', 'Credit Cards', 'Loans']}
-                        title="Balances"
+                        items={['İstenen', 'Onaylanmış', 'Geçmiş']}
+                        title="Talepler"
                      />
 
                      <SidebarItem
                         isActive={router.pathname === '/customers'}
-                        title="Customers"
+                        title="Talepte Bulun"
                         icon={<CustomersIcon />}
                      />
-                     <SidebarItem
-                        isActive={router.pathname === '/products'}
-                        title="Products"
-                        icon={<ProductsIcon />}
-                     />
+
                      <SidebarItem
                         isActive={router.pathname === '/reports'}
-                        title="Reports"
+                        title="Raporlar"
                         icon={<ReportsIcon />}
+                     />
+                      <SidebarItem
+                        isActive={router.pathname === '/view'}
+                        title="Demirbaş"
+                        icon={<ViewIcon />}
                      />
                   </SidebarMenu>
 
-                  <SidebarMenu title="General">
+                  <SidebarMenu title="Sistem">
                      <SidebarItem
                         isActive={router.pathname === '/developers'}
-                        title="Developers"
+                        title="Eklentiler"
                         icon={<DevIcon />}
                      />
-                     <SidebarItem
-                        isActive={router.pathname === '/view'}
-                        title="View Test Data"
-                        icon={<ViewIcon />}
-                     />
+                    
                      <SidebarItem
                         isActive={router.pathname === '/settings'}
-                        title="Settings"
+                        title="Ayarlar"
                         icon={<SettingsIcon />}
                      />
                   </SidebarMenu>
 
-                  <SidebarMenu title="Updates">
+                  <SidebarMenu title="Kayıtlar">
                      <SidebarItem
                         isActive={router.pathname === '/changelog'}
-                        title="Changelog"
+                        title="Geçmiş"
                         icon={<ChangeLogIcon />}
                      />
                   </SidebarMenu>
                </Sidebar.Body>
                <Sidebar.Footer>
-                  <Tooltip content={'Settings'} rounded color="primary">
+                  <Tooltip content={'Ayarlar'} rounded color="primary">
                      <SettingsIcon />
                   </Tooltip>
-                  <Tooltip content={'Adjustments'} rounded color="primary">
+                  <Tooltip content={'Filtreler'} rounded color="primary">
                      <FilterIcon />
                   </Tooltip>
-                  <Tooltip content={'Profile'} rounded color="primary">
+                  <Tooltip content={'Profil'} rounded color="primary">
                      <Avatar
                         src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
                         size={'sm'}

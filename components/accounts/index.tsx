@@ -31,22 +31,22 @@ export const Accounts = () => {
             <Crumb>
                <HouseIcon />
                <Link href={'/'}>
-                  <CrumbLink href="#">Home</CrumbLink>
+                  <CrumbLink href="#">Giriş</CrumbLink>
                </Link>
                <Text>/</Text>
             </Crumb>
 
             <Crumb>
                <UsersIcon />
-               <CrumbLink href="#">Users</CrumbLink>
+               <CrumbLink href="#">Kişiler</CrumbLink>
                <Text>/</Text>
             </Crumb>
             <Crumb>
-               <CrumbLink href="#">List</CrumbLink>
+               <CrumbLink href="#">Liste</CrumbLink>
             </Crumb>
          </Breadcrumbs>
 
-         <Text h3>All Accounts</Text>
+         <Text h3>Kişiler / Çalışanlar</Text>
          <Flex
             css={{gap: '$8'}}
             align={'center'}
@@ -63,7 +63,7 @@ export const Accounts = () => {
             >
                <Input
                   css={{width: '100%', maxW: '410px'}}
-                  placeholder="Search users"
+                  placeholder="Kişi Ara"
                />
                <SettingsIcon />
                <TrashIcon />
@@ -73,7 +73,7 @@ export const Accounts = () => {
             <Flex direction={'row'} css={{gap: '$6'}} wrap={'wrap'}>
                <AddUser />
                <Button auto iconRight={<ExportIcon />}>
-                  Export to CSV
+                  CSV Rapor Çıkar
                </Button>
             </Flex>
          </Flex>

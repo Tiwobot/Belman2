@@ -55,7 +55,7 @@ export const Content = () => (
                      },
                   }}
                >
-                  Available Balance
+                  Bütçe
                </Text>
                <Flex
                   css={{
@@ -85,7 +85,7 @@ export const Content = () => (
                      },
                   }}
                >
-                  Statistics
+                  İstatistik
                </Text>
                <Box
                   css={{
@@ -122,7 +122,7 @@ export const Content = () => (
                   },
                }}
             >
-               Section
+               Hedefler
             </Text>
             <Flex
                direction={'column'}
@@ -168,7 +168,7 @@ export const Content = () => (
                   },
                }}
             >
-               Latest Users
+               Kişiler
             </Text>
             <NextLink href="/accounts">
                <Link
@@ -181,7 +181,7 @@ export const Content = () => (
                      },
                   }}
                >
-                  View All
+                  Tamamını Göster
                </Link>
             </NextLink>
          </Flex>

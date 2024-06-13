@@ -9,6 +9,7 @@ import {Flex} from '../styles/flex';
 import {BurguerButton} from './burguer-button';
 import {NotificationsDropdown} from './notifications-dropdown';
 import {UserDropdown} from './user-dropdown';
+import { MersinIcon } from '../icons/mersin-icon';
 
 interface Props {
    children: React.ReactNode;
@@ -90,14 +91,14 @@ export const NavbarWrapper = ({children}: Props) => {
                         dflex: 'center',
                      },
                   }}
-                  placeholder="Search..."
+                  placeholder="Ara..."
                />
             </Navbar.Content>
             <Navbar.Content>
                <Navbar.Content hideIn={'md'}>
                   <Flex align={'center'} css={{gap: '$4'}}>
                      <FeedbackIcon />
-                     <Text span>Feedback?</Text>
+                     <Text span>Destek</Text>
                   </Flex>
                </Navbar.Content>
 
@@ -110,10 +111,10 @@ export const NavbarWrapper = ({children}: Props) => {
                </Navbar.Content>
                <Navbar.Content>
                   <Link
-                     href="https://github.com/"
+                     href="https://www.mersin.bel.tr/"
                      target={'_blank'}
                   >
-                     <GithubIcon />
+                     <MersinIcon />
                   </Link>
                </Navbar.Content>
                <Navbar.Content>

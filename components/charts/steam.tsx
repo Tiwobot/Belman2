@@ -4,11 +4,11 @@ import Chart, {Props} from 'react-apexcharts';
 
 const state: Props['series'] = [
    {
-      name: 'Series1',
+      name: 'Veri1',
       data: [31, 40, 28, 51, 42, 109, 100],
    },
-   {
-      name: 'Series2',
+   {  
+      name: 'Veri2',
       data: [11, 32, 45, 32, 34, 52, 41],
    },
 ];
@@ -31,14 +31,14 @@ const options: Props['options'] = {
       foreColor: 'var(--nextui-colors-accents9)',
       stacked: true,
       toolbar: {
-         show: false,
+         show: true,
       },
    },
 
    xaxis: {
-      categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+      categories: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
       labels: {
-         // show: false,
+         show: true,
          style: {
             colors: 'var(--nextui-colors-accents8)',
             fontFamily: 'Inter, sans-serif',
@@ -60,7 +60,7 @@ const options: Props['options'] = {
       },
    },
    tooltip: {
-      enabled: false,
+      enabled: true,
    },
    grid: {
       show: true,

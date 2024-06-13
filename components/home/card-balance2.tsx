@@ -19,62 +19,22 @@ export const CardBalance2 = () => {
                <Community color={'$accents9'} />
                <Flex direction={'column'}>
                   <Text span css={{color: ''}}>
-                     Healt Insurance
+                     Giderler
                   </Text>
                   <Text span size={'$xs'}>
-                     +2400 People
+                     Kalan 137 gün için:
                   </Text>
                </Flex>
             </Flex>
             <Flex css={{gap: '$6', py: '$4'}} align={'center'}>
                <Text span size={'$xl'} weight={'semibold'}>
-                  $12,138
+                  ₺778.650
                </Text>
                <Text span css={{color: '$red600'}} size={'$xs'}>
-                  + 4.5%
+                  - 4.5%
                </Text>
             </Flex>
-            <Flex css={{gap: '$12'}} align={'center'}>
-               <Box>
-                  <Text
-                     span
-                     size={'$xs'}
-                     css={{color: '$green600'}}
-                     weight={'semibold'}
-                  >
-                     {'↓'}
-                  </Text>
-                  <Text span size={'$xs'}>
-                     11,930 USD
-                  </Text>
-               </Box>
-               <Box>
-                  <Text
-                     span
-                     size={'$xs'}
-                     css={{color: '$red600'}}
-                     weight={'semibold'}
-                  >
-                     {'↑'}
-                  </Text>
-                  <Text span size={'$xs'}>
-                     54,120 USD
-                  </Text>
-               </Box>
-               <Box>
-                  <Text
-                     span
-                     size={'$xs'}
-                     css={{color: '$green600'}}
-                     weight={'semibold'}
-                  >
-                     {'⭐'}
-                  </Text>
-                  <Text span size={'$xs'}>
-                     150 VIP
-                  </Text>
-               </Box>
-            </Flex>
+            
          </Card.Body>
       </Card>
    );

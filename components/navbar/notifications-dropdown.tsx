@@ -30,27 +30,27 @@ export const NotificationsDropdown = () => {
                },
             }}
          >
-            <Dropdown.Section title="Notificacions">
+            <Dropdown.Section title="Bildirimler">
                <Dropdown.Item
                   key="1"
                   showFullDescription
-                  description="Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+                  description="Mersin Belediyesi bilidirimi test yazısı: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                >
-                  📣 Edit your information
+                  📣 Test Yapıldı 1 
                </Dropdown.Item>
                <Dropdown.Item
                   key="2"
                   showFullDescription
-                  description="Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+                  description="Mersin Belediyesi bilidirimi test yazısı: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                >
-                  🚀 Say goodbye to paper receipts!
+                  🚀 Test Yapıldı 2
                </Dropdown.Item>
                <Dropdown.Item
                   key="3"
                   showFullDescription
-                  description="Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+                  description="Mersin Belediyesi bilidirimi test yazısı: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                >
-                  📣 Edit your information
+                  📣 Test Yapıldı 3
                </Dropdown.Item>
             </Dropdown.Section>
          </Dropdown.Menu>

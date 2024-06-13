@@ -41,11 +41,11 @@ export const CardAgents = () => {
                      borderRadius: '$base',
                   }}
                >
-                  {'⭐'}
+                  {'⭐⭐⭐'}
                   <Box>
                      <Flex direction={'column'}>
-                        <Text h3 css={{margin: 0}}>
-                           Agents
+                        <Text h3 css={{margin:2}}>
+                        Mersin
                         </Text>
                      </Flex>
                   </Box>
@@ -53,7 +53,7 @@ export const CardAgents = () => {
             </Flex>
             <Flex css={{gap: '$6', py: '$4'}} align={'center'}>
                <Text span size={'$xs'}>
-                  Meet your agenda and see their ranks to get the best results
+                  2025 - 7. ULUSAL HER YÖNÜYLE KENTSEL DÖNÜŞÜM KONGRESİ hakkında bilgi alın...
                </Text>
             </Flex>
             <Flex css={{pt: '$4'}} align={'center'} justify={'center'}>

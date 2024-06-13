@@ -54,18 +54,18 @@ export const RenderCell = ({user, columnKey}: Props) => {
                css={{'gap': '$8', '@md': {gap: 0}}}
             >
                <Col css={{d: 'flex'}}>
-                  <Tooltip content="Details">
+                  <Tooltip content="Detaylar">
                      <IconButton
-                        onClick={() => console.log('View user', user.id)}
+                        onClick={() => console.log('Detaylar', user.id)}
                      >
                         <EyeIcon size={20} fill="#979797" />
                      </IconButton>
                   </Tooltip>
                </Col>
                <Col css={{d: 'flex'}}>
-                  <Tooltip content="Edit user">
+                  <Tooltip content="Düzenle">
                      <IconButton
-                        onClick={() => console.log('Edit user', user.id)}
+                        onClick={() => console.log('Düzenle', user.id)}
                      >
                         <EditIcon size={20} fill="#979797" />
                      </IconButton>
@@ -73,9 +73,9 @@ export const RenderCell = ({user, columnKey}: Props) => {
                </Col>
                <Col css={{d: 'flex'}}>
                   <Tooltip
-                     content="Delete user"
+                     content="Sil"
                      color="error"
-                     onClick={() => console.log('Delete user', user.id)}
+                     onClick={() => console.log('Sil', user.id)}
                   >
                      <IconButton>
                         <DeleteIcon size={20} fill="#FF0080" />

@@ -14,7 +14,7 @@ export const AddUser = () => {
    return (
       <div>
          <Button auto onClick={handler}>
-            Add User
+            Kişi Ekle
          </Button>
          <Modal
             closeButton

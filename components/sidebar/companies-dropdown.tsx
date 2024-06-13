@@ -1,6 +1,7 @@
 import {Dropdown, Text} from '@nextui-org/react';
 import React, {useState} from 'react';
 import {AcmeIcon} from '../icons/acme-icon';
+import {MersinIcon} from '../icons/mersin-icon';
 import {AcmeLogo} from '../icons/acmelogo';
 import {BottomIcon} from '../icons/sidebar/bottom-icon';
 import {Box} from '../styles/box';
@@ -14,9 +15,9 @@ interface Company {
 
 export const CompaniesDropdown = () => {
    const [company, setCompany] = useState<Company>({
-      name: 'Acme Co.',
-      location: 'Palo Alto, CA',
-      logo: <AcmeIcon />,
+      name: 'Mersin',
+      location: 'Büyükşehir',
+      logo: <MersinIcon />,
    });
    return (
       <Dropdown placement="bottom-right" borderWeight={'extrabold'}>
@@ -55,29 +56,29 @@ export const CompaniesDropdown = () => {
             onAction={(e) => {
                if (e === '1') {
                   setCompany({
-                     name: 'Facebook',
-                     location: 'San Fransico, CA',
-                     logo: <AcmeIcon />,
+                     name: 'Mersin',
+                     location: 'Büyükşehir',
+                     logo: <MersinIcon />,
                   });
                }
                if (e === '2') {
                   setCompany({
-                     name: 'Instagram',
-                     location: 'Austin, Tx',
+                     name: 'Bilgi İşlem',
+                     location: 'Dairesi Başkanığı',
                      logo: <AcmeLogo />,
                   });
                }
                if (e === '3') {
                   setCompany({
-                     name: 'Twitter',
-                     location: 'Brooklyn, NY',
+                     name: 'Afet İşleri',
+                     location: 'Dairesi Başkanlığı',
                      logo: <AcmeIcon />,
                   });
                }
                if (e === '4') {
                   setCompany({
-                     name: 'Acme Co.',
-                     location: 'Palo Alto, CA',
+                     name: 'Ulaşım',
+                     location: 'Daire Başkanlığı',
                      logo: <AcmeIcon />,
                   });
                }
@@ -101,34 +102,34 @@ export const CompaniesDropdown = () => {
                },
             }}
          >
-            <Dropdown.Section title="Companies">
+            <Dropdown.Section title="Daireler">
                <Dropdown.Item
                   key="1"
-                  icon={<AcmeIcon />}
-                  description="San Fransico, CA"
+                  icon={<MersinIcon />}
+                  description="Büyükşehir"
                >
-                  Facebook
+                  Mersin
                </Dropdown.Item>
                <Dropdown.Item
                   key="2"
                   icon={<AcmeLogo />}
-                  description="Austin, Tx"
+                  description="Dairesi Başkanlığı"
                >
-                  Instagram
+                  Bilgi İşlem
                </Dropdown.Item>
                <Dropdown.Item
                   key="3"
                   icon={<AcmeIcon />}
-                  description="Brooklyn, NY"
+                  description="Daire Başkanlığı"
                >
-                  Twitter
+                  Afet İşleri
                </Dropdown.Item>
                <Dropdown.Item
                   key="4"
                   icon={<AcmeIcon />}
-                  description="Palo Alto, CA"
+                  description="Dairesi Başkanlığı"
                >
-                  Acme Co.
+                  Ulaşım
                </Dropdown.Item>
             </Dropdown.Section>
          </Dropdown.Menu>

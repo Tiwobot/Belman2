@@ -19,7 +19,7 @@ export const CardTransactions = () => {
          <Card.Body css={{py: '$10'}}>
             <Flex css={{gap: '$5'}} justify={'center'}>
                <Text h3 css={{textAlign: 'center'}}>
-                  Latest Transactions
+                  Yakın Zamandaki İşlemler
                </Text>
             </Flex>
             <Flex
@@ -38,13 +38,13 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Jose Perez
+                     Mehmet Ali Ateş
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     4500 USD
+                  ₺4500
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
-                     9/20/2021
+                     9/20/2024
                   </Text>
                </Flex>
 
@@ -58,13 +58,13 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Andrew Steven
+                  Mahmut Polat
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     4500 USD
+                  ₺4500
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
-                     9/20/2021
+                     9/20/2024
                   </Text>
                </Flex>
                <Flex css={{gap: '$6'}} align={'center'} justify="between">
@@ -77,13 +77,13 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Ruben Garcia
+                  Fatih Özcan
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     1500 USD
+                  ₺1500
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
-                     2/20/2022
+                     2/20/2024
                   </Text>
                </Flex>
                <Flex css={{gap: '$6'}} align={'center'} justify="between">
@@ -96,13 +96,13 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Perla Garcia
+                  Bekir Şimşek
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     200 USD
+                  ₺200
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
-                     3/20/2022
+                     3/20/2024
                   </Text>
                </Flex>
                <Flex css={{gap: '$6'}} align={'center'} justify="between">
@@ -115,13 +115,13 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Mathew Funez
+                  Halil Yavuz
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     2444 USD
+                  ₺2444
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
-                     5/20/2022
+                     5/20/2024
                   </Text>
                </Flex>
                <Flex css={{gap: '$6'}} align={'center'} justify="between">
@@ -134,13 +134,13 @@ export const CardTransactions = () => {
                      stacked
                   />
                   <Text span size={'$base'} weight={'semibold'}>
-                     Carlos Diaz
+                  Halil Yavuz
                   </Text>
                   <Text span css={{color: '$green600'}} size={'$xs'}>
-                     3000 USD
+                  ₺3000
                   </Text>
                   <Text span css={{color: '$accents8'}} size={'$xs'}>
-                     12/20/2022
+                     12/20/2024
                   </Text>
                </Flex>
             </Flex>
